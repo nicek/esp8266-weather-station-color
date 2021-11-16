@@ -367,7 +367,7 @@ void drawTime() {
 
   gfx.setFont(ArialRoundedMTBold_36);
 
-  if (IS_STYLE_12HR) {                                                              //12:00
+  if (false) {                                                              //12:00
     int hour = (timeinfo->tm_hour + 11) % 12 + 1; // take care of noon and midnight
     if (IS_STYLE_HHMM) {
       sprintf(time_str, "%2d:%02d\n", hour, timeinfo->tm_min);                //hh:mm
@@ -387,7 +387,7 @@ void drawTime() {
   gfx.setTextAlignment(TEXT_ALIGN_LEFT);
   gfx.setFont(ArialMT_Plain_10);
   gfx.setColor(MINI_BLUE);
-  if (IS_STYLE_12HR) {
+  if (false) {
     sprintf(time_str, "\n%s", timeinfo->tm_hour >= 12 ? "PM" : "AM");
     gfx.drawString(195, 27, time_str);
   }
