@@ -57,10 +57,9 @@ const String OPEN_WEATHER_MAP_LANGUAGE = "pl";
 
 // Adjust according to your language
 const String WDAY_NAMES[] = {"niedz.", "pon.", "wto.", "sr.", "czw.", "pt.", "sob."};
-const String MONTH_NAMES[] = {"STY", "LUT", "MAR", "KWI", "MAJ", "CZE", "LIP", "SIE", "WRZ", "PAŹ", "LIS", "GRU"};
-const String SUN_MOON_TEXT[] = {"Słońce", "Wschód", "Zachód", "Księżyc", "Wiek", "Świecenie"};
-const String MOON_PHASES[] = {"Nów", "Pierwsza Kwarta", "Druga kwarta", "Półksiężyc",
-                              "Pełnia", "Ubywający księżyc", "Ostatnia kwarta"};
+const String MONTH_NAMES[] = {"STY", "LUT", "MAR", "KWI", "MAJ", "CZE", "LIP", "SIE", "WRZ", "PAZ", "LIS", "GRU"};
+const String SUN_MOON_TEXT[] = {"Slonce", "Wsch", "Zach", "Ksiezyc", "Wiek", "Swiatlo"};
+const String MOON_PHASES[] = {"Now", "Pierwsza Kwadra", "Pelnia", "Pelnia", "Ostatnia kwarta", "Now"};
 
 // pick one from TZinfo.h
 String TIMEZONE = getTzInfo("Europe/Zurich");
