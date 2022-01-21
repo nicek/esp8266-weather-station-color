@@ -457,7 +457,7 @@ void drawAstronomy() {
   gfx.setFont(MoonPhases_Regular_36);
   gfx.setColor(MINI_WHITE);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
-  gfx.drawString(120, 275, String((char) (97 + (moonData.illumination * 26))));
+  gfx.drawString(120, 275, String((char) (65 + (moonData.illumination * 26))));
 
   gfx.setColor(MINI_WHITE);
   gfx.setFont(ArialRoundedMTBold_14);
